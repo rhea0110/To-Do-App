@@ -34,7 +34,7 @@ const Note = ({ id, title, text, notes, setNotes }) => {
   return (
     <form
       onSubmit={(e) => editNote(e)}
-      className=" flex rounded-sm flex-col shadow-2xl  bg-white/10 backdrop-blur-[8px] font-semibold backdrop-saturate-10 min-h-[300px] h-fit "
+      className=" flex rounded-sm flex-col shadow-2xl bg-white/10 backdrop-blur-[8px] font-semibold backdrop-saturate-10 min-h-[300px] h-fit "
     >
       {edit ? (
         <input
