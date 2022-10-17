@@ -37,17 +37,25 @@ const Note = ({ id, title, text, notes, setNotes }) => {
       className=" flex rounded-sm flex-col shadow-2xl  bg-white/10 backdrop-blur-[8px] font-semibold backdrop-saturate-10 min-h-[300px] h-fit "
     >
       {edit ? (
-        <input value={title2} onChange={(e) => setTitle2(e.target.value)} />
+        <input
+          value={title2}
+          onChange={(e) => setTitle2(e.target.value)}
+          className="h-full w-full"
+        />
       ) : (
-        <div className="w-full bg-transparent text-center px-2 text-3xl font-[700] tracking-wider text-blue-900">
+        <div className="w-full bg-transparent overflow-hidden h-full text-center px-2 text-3xl font-[700] tracking-wider text-blue-900">
           {title}
         </div>
       )}
       <hr className="border-dashed border-blue-900 mt-1" />
       {edit ? (
-        <input value={text2} onChange={(e) => setText2(e.target.value)} />
+        <input
+          value={text2}
+          onChange={(e) => setText2(e.target.value)}
+          className="h-full min-w-screen"
+        />
       ) : (
-        <div className="w-[95%] bg-transparent px-8 text-left text-xl overflow-y-auto py-2 text-blue-900">
+        <div className="w-[95%] h-full bg-transparent px-8 text-left text-xl overflow-hidden py-2 text-blue-900">
           {text}
         </div>
       )}
@@ -56,10 +64,10 @@ const Note = ({ id, title, text, notes, setNotes }) => {
         <button type="submit" className="w-7">
           <Submit />
         </button>
-         <EditIcon
-            className="w-7 h-7 cursor-pointer"
-            onClick={() => setEdit(true)}
-          />
+        <EditIcon
+          className="w-7 h-7 cursor-pointer"
+          onClick={() => setEdit(true)}
+        />
         <DeleteIcon
           className="w-7 h-7 cursor-pointer"
           onClick={() => deleteNote()}
