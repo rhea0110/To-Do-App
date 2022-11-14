@@ -46,17 +46,18 @@ const NotesList = (props) => {
       localStorage.setItem('notes', JSON.stringify(newNotes));
     }
     return (
-      <div className="w-full min-h-screen">
+      <div className="w-full min-h-screen ">
         <h1 className="text-blue-900 font-medium text-5xl tracking-wide text-center mb-4">
           Post Notes
         </h1>
 
-        <div className="flex flex-col lg:flex-row relative rounded-sm text-blue-900 font-semibold items-center border-2 border-blue-900 mx-auto w-full sm:w-[50%] h-[13vh] lg:h-[40px] backdrop-blur-[8px] backdrop-saturate-100">
+        <div className="flex sm:flex-col lg:flex-row relative rounded-sm text-blue-900 font-semibold items-center border-2 border-blue-900 mx-auto w-full sm:w-[30%] lg:w-[50%] h-[13vh] lg:h-[40px] backdrop-blur-[8px] backdrop-saturate-100">
+          
           <PlusIcon
             className="w-[35px] right-0 translate-x-[150%] backdrop-blur-[8px] ease-in backdrop-saturate-10 hover:scale-150 transition-all hover:cursor-pointer absolute text-blue-900 -mt-[18px]"
             onClick={() => addNote()}
-          />
-          <SearchIcon className="w-6 h-6 ml-2 " placeholder="Search " />
+            />
+          <SearchIcon className="w-6 h-6 lg:ml-2 " placeholder="Search" />
           <input
             type="Search"
             className="bg-transparent outline-none flex flex-grow indent-2 placeholder-blue-900"
