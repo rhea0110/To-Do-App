@@ -91,7 +91,7 @@ docker-compose -f docker-compose-hub.yml up
 <p>
     <a href="https://app.plane.so/" target="_blank">
       <img
-        src="[https://res.cloudinary.com/toolspacedev/image/upload/v1680601719/Plane/plane_2_iqao52.png](https://files.slack.com/files-pri/T04BT24HKM5-F058VJ68FEK/frame_1000007184.png)"
+        src="[[https://res.cloudinary.com/toolspacedev/image/upload/v1680601719/Plane/plane_2_iqao52.png](https://files.slack.com/files-pri/T04BT24HKM5-F058VJ68FEK/frame_1000007184.png)](https://planeworld.slack.com/files/U04D2K0556F/F058VJ68FEK/frame_1000007184.png)"
         alt="Plane Issue Details"
         width="100%"
       />
