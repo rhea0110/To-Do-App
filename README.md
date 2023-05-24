@@ -95,14 +95,7 @@ docker-compose -f docker-compose-hub.yml up
 
 ## 📸 Screenshots
 <p>
-    <a href="https://app.plane.so/#gh-light-mode-only" target="_blank">
-      <img
-        src="https://ik.imagekit.io/killbluedog/Plane_Views.png?updatedAt=1684942001146"
-        alt="Plane Views"
-        width="100%"
-      />
-    </a>
-    <a href="https://app.plane.so/#gh-dark-mode-only" target="_blank">
+    <a href="https://app.plane.so/" target="_blank">
       <img
         src="https://ik.imagekit.io/killbluedog/Plane_Views_Dark_Mode.png?updatedAt=1684943050275"
         alt="Plane Views"
@@ -111,14 +104,7 @@ docker-compose -f docker-compose-hub.yml up
     </a>
   </p>
 <p>
-    <a href="https://app.plane.so/#gh-light-mode-only" target="_blank">
-      <img
-        src="https://ik.imagekit.io/killbluedog/Plane_Issue_Detail.png?updatedAt=1684942143566"
-        alt="Plane Issue Details"
-        width="100%"
-      />
-    </a>
-    <a href="https://app.plane.so/#gh-dark-mode-only" target="_blank">
+    <a href="https://app.plane.so/" target="_blank">
       <img
         src="https://ik.imagekit.io/killbluedog/Plane_Issue_Detail_Dark_Mode.png?updatedAt=1684943050202"
         alt="Plane Issue Details"
@@ -127,14 +113,7 @@ docker-compose -f docker-compose-hub.yml up
     </a>
   </p>
   <p>
-    <a href="https://app.plane.so/#gh-light-mode-only" target="_blank">
-      <img
-        src="https://ik.imagekit.io/killbluedog/Plane_Cycles___Modules.png?updatedAt=1684942001144"
-        alt="Plane Cycles and Modules"
-        width="100%"
-      />
-    </a>
-    <a href="https://app.plane.so/#gh-dark-mode-only" target="_blank">
+    <a href="https://app.plane.so/" target="_blank">
       <img
         src="https://ik.imagekit.io/killbluedog/Plane_Cycles___Modules_Dark_Mode.png?updatedAt=1684943050281"
         alt="Plane Cycles and Modules"
@@ -143,14 +122,7 @@ docker-compose -f docker-compose-hub.yml up
     </a>
   </p>
   <p>
-    <a href="https://app.plane.so/#gh-light-mode-only" target="_blank">
-      <img
-        src="https://ik.imagekit.io/killbluedog/Plane_Analytics.png?updatedAt=1684942001014"
-        alt="Plane Analytics"
-        width="100%"
-      />
-    </a>
-    <a href="https://app.plane.so/#gh-dark-mode-only" target="_blank">
+    <a href="https://app.plane.so/" target="_blank">
       <img
         src="https://ik.imagekit.io/killbluedog/Plane_Analytics_Dark_Mode.png?updatedAt=1684943331296"
         alt="Plane Analytics"
@@ -159,14 +131,7 @@ docker-compose -f docker-compose-hub.yml up
     </a>
   </p>
    <p>
-    <a href="https://app.plane.so/#gh-light-mode-only" target="_blank">
-      <img
-        src="https://ik.imagekit.io/killbluedog/Plane_Pages.png?updatedAt=1684942001033"
-        alt="Plane Pages"
-        width="100%"
-      />
-    </a>
-    <a href="https://app.plane.so/#gh-dark-mode-only" target="_blank">
+    <a href="https://app.plane.so/" target="_blank">
       <img
         src="https://ik.imagekit.io/killbluedog/Plane_Pages_Dark_Mode.png?updatedAt=1684943050202"
         alt="Plane Pages"
@@ -176,14 +141,7 @@ docker-compose -f docker-compose-hub.yml up
   </p>
 </p>
    <p>
-    <a href="https://app.plane.so/#gh-light-mode-only" target="_blank">
-      <img
-        src="https://ik.imagekit.io/killbluedog/Plane_Command_K.png?updatedAt=1684942053505"
-        alt="Plane Command K"
-        width="100%"
-      />
-    </a>
-    <a href="https://app.plane.so/#gh-dark-mode-only" target="_blank">
+    <a href="https://app.plane.so/" target="_blank">
       <img
         src="https://ik.imagekit.io/killbluedog/Plane_Commad_K_Dark_Mode.png?updatedAt=1684943050312"
         alt="Plane Command K"
